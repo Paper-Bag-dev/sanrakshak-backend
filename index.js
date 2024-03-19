@@ -43,7 +43,7 @@ const databaseConnection = async () => {
   try {
     await connectDb(process.env.MONGO_URL);
     app.get("/", (req, res) => {
-      res.send("Hi Welcome Kavach Backend")
+      res.send("Hi Welcome Sanrakshak Backend")
     })
   } catch (error) {
     console.log(error);
