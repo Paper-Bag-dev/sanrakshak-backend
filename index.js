@@ -10,7 +10,7 @@ import policeRouter from "./routes/policeRoutes.js";
 import superRouter from "./routes/superRoutes.js";
 
 const app = express();
-app.use(bodyParser.json({ limit: '35mb' }));
+app.use(bodyParser.json({ limit: '50mb' }));
 
 // adding middleware
 app.use(
